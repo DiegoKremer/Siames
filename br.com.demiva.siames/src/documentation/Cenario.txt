@@ -1,0 +1,16 @@
+Cenário 1: Possibilidade de chuva
+
+DADO QUE previsão de chuva acima de 50% 
+QUANDO acesso a aplicação
+ENTÃO recebo indicação de usar botas
+
+
+------------------------------------------
+
+Cenário 2: Está frio
+
+DADO QUE temperatura abaixo de 15ºC
+QUANDO acesso a aplicação
+ENTÃO recebo indicação de vestir casaco
+
+
